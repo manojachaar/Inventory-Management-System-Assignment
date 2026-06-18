@@ -145,3 +145,11 @@ Password: admin123
 * Stock history tracking
 * Product image upload
 * Role-based authentication
+
+##AI-Assisted Development Note
+
+During the development of this project, I used multiple AI-assisted development tools, including ChatGPT, Claude, and VibeFlow, to improve productivity and accelerate the development process.
+
+ChatGPT helped me understand the project requirements, design the application architecture, create REST APIs using Flask, integrate MySQL with Python, and implement frontend functionalities using HTML, CSS, and JavaScript. It was also used for debugging issues related to MySQL connections, API integration, validation handling, and improving the overall user interface.
+
+Claude was primarily used for frontend development assistance, including designing responsive user interfaces, improving HTML/CSS structure, refining JavaScript functionalities, and enhancing the overall user experience and visual presentation of the application.

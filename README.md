@@ -148,8 +148,10 @@ Password: admin123
 
 ## AI-Assisted Development Note
 
-During the development of this project, I used multiple AI-assisted development tools, including ChatGPT, Claude, and VibeFlow, to improve productivity and accelerate the development process.
+During the development of this project, I used multiple AI-assisted development tools, including ChatGPT, Claude, and Wispr Flow, to improve productivity and accelerate the development process.
 
 ChatGPT helped me understand the project requirements, design the application architecture, create REST APIs using Flask, integrate MySQL with Python, and implement frontend functionalities using HTML, CSS, and JavaScript. It was also used for debugging issues related to MySQL connections, API integration, validation handling, and improving the overall user interface.
 
 Claude was primarily used for frontend development assistance, including designing responsive user interfaces, improving HTML/CSS structure, refining JavaScript functionalities, and enhancing the overall user experience and visual presentation of the application.
+
+The major challenges encountered during development were resolving MySQL connection errors and integrating additional features such as Login Authentication, Product Search, and Date Added tracking within a limited time frame. The use of AI-assisted tools significantly improved my productivity, helped me solve technical issues efficiently, and enabled me to deliver a clean, organized, and functional application within the given timeline.

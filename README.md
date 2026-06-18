@@ -61,7 +61,6 @@ Tools:
 * VS Code
 * Git
 * GitHub
-* XAMPP
 * MySQL Command Line Client
 
 ---

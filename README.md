@@ -108,13 +108,9 @@ git clone <repository-link>
 
 cd backend
 
-Install dependencies:
+Install dependencies: pip install flask flask-cors mysql-connector-python
 
-pip install flask flask-cors mysql-connector-python
-
-Run application:
-
-python app.py
+Run application: python app.py
 
 ### Frontend Setup
 

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Inventory Management System</title>
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet"
+          href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <header>
+
+        <h1>
+            Inventory Management Dashboard
+        </h1>
+
+        <p>
+            Track products, monitor stock levels,
+            and manage inventory efficiently.
+        </p>
+
+        <button onclick="logout()">
+            Logout
+        </button>
+
+    </header>
+
+
+    <!-- Dashboard Cards -->
+
+    <div class="cards">
+
+        <div class="card">
+
+            <div class="icon">
+                <i class="fa-solid fa-box"></i>
+            </div>
+
+            <h3>Total Products</h3>
+
+            <p id="totalProducts">
+                0
+            </p>
+
+        </div>
+
+
+        <div class="card">
+
+            <div class="icon">
+                <i class="fa-solid fa-warehouse"></i>
+            </div>
+
+            <h3>Total Stock</h3>
+
+            <p id="totalStock">
+                0
+            </p>
+
+        </div>
+
+
+        <div class="card">
+
+            <div class="icon">
+                <i class="fa-solid fa-triangle-exclamation"></i>
+            </div>
+
+            <h3>Low Stock</h3>
+
+            <p id="lowCount">
+                0
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- Add Product -->
+
+    <div class="form">
+
+        <input
+            type="text"
+            id="name"
+            placeholder="Enter Product Name">
+
+        <input
+            type="number"
+            id="quantity"
+            placeholder="Enter Quantity">
+
+        <button onclick="addProduct()">
+            <i class="fa-solid fa-plus"></i>
+            Add Product
+        </button>
+
+    </div>
+
+
+    <!-- Search -->
+
+    <div class="search-box">
+
+        <input
+            type="text"
+            id="search"
+            placeholder="Search Product"
+            onkeyup="searchProduct()">
+
+    </div>
+
+
+    <!-- Product Table -->
+
+    <section class="table-section">
+
+        <h2>Products</h2>
+
+        <table>
+
+            <thead>
+
+            <tr>
+
+                <th>Product Name</th>
+                <th>Quantity</th>
+                <th>Date Added</th>
+                <th>Status</th>
+                <th>Action</th>
+
+            </tr>
+
+            </thead>
+
+            <tbody id="productTable">
+
+            </tbody>
+
+        </table>
+
+    </section>
+
+
+    <!-- Low Stock -->
+
+    <section>
+
+        <h2>Low Stock Items</h2>
+
+        <div id="lowStock">
+
+            No low stock items.
+
+        </div>
+
+    </section>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

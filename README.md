@@ -146,7 +146,7 @@ Password: admin123
 * Product image upload
 * Role-based authentication
 
-##AI-Assisted Development Note
+## AI-Assisted Development Note
 
 During the development of this project, I used multiple AI-assisted development tools, including ChatGPT, Claude, and VibeFlow, to improve productivity and accelerate the development process.
 
